@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: grey;
+}
+
+nav {
+    padding: 20px 0;
+    text-align: center;
+    background-color: orange;
+}
+nav a {
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+}
+
+main h2 {
+    font-size: 35px;
+}
+
+main h2:after {
+    content:' ';
+    display:block;
+    border:2px solid black;
+}
+
+.card ul {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    display: block;
+}
