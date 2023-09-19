@@ -24,7 +24,6 @@ header h1 {
 }
 
 nav {
-    text-align: center;
     background-color: #99B2DD;
     width: 1000px;
     margin: 0 auto;
@@ -35,11 +34,13 @@ nav a {
     font-size: 30px;
     text-decoration: none;
     padding: 10px 0;
-    color: white;
+    color: black;
+    max-width: fit-content;
+    margin: 0 auto;
 }
 
 nav a:visited {
-    color: white;
+    color: black;
 }
 
 nav a:hover {
