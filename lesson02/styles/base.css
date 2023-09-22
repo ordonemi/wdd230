@@ -51,7 +51,8 @@ main {
     border-radius: 20px;
 }
 
-.card h1 {
+.card h2 {
+    font-size: 30px;
     background-color: #000000;
     color: #E5E5E5;
     margin: 0;
@@ -74,7 +75,8 @@ main {
         border-radius: 20px;
 }
 
-.big-card h1 {
+.big-card h2 {
+    font-size: 30px;
     background-color: #000000;
     color: #E5E5E5;
     margin: 0;
