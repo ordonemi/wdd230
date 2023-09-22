@@ -1,0 +1,23 @@
+@media screen and (min-width: 1800px){
+    header {
+        width: 90%;
+    }
+
+    main {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .big-card {
+        grid-column: 3/4;
+    }
+
+    .big-card img {
+        width: 90%;
+    }
+
+    footer {
+        width: 90%;
+    }
+}

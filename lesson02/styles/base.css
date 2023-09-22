@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Anton', sans-serif;
+}
+
+p,a, span {
+    font-family: 'Roboto', sans-serif;
+    color: #E5E5E5;
+    font-size: 30px;
+    margin: 1.5rem;
+    text-align: left;
+    line-height: 3rem;
+}
+
+a {
+    display: block;
+}
+
+header {
+    background-color: #000000;   
+    text-align: center;
+    color: #E5E5E5;
+    margin: 0 auto;
+    width: 60%;
+}
+
+header h1 {
+    font-size: 50px;
+    padding-top: 1.5rem;
+}
+
+header h2 {
+    font-size: 40px;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    background-color: #14213D;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card h1 {
+    background-color: #000000;
+    color: #E5E5E5;
+    margin: 0;
+    padding: 1rem;
+    text-align: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.big-card {
+    grid-column: 1/3;
+    background-color: #14213D;
+    text-align: center;
+    margin: 1rem;
+        border-radius: 20px;
+}
+
+.big-card h1 {
+    background-color: #000000;
+    color: #E5E5E5;
+    margin: 0;
+    padding: 1rem;
+    text-align: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.big-card img
+{
+    width: 80%;
+}
+
+footer {
+    background-color: #000000;
+    color: #E5E5E5;
+    padding: .5rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer p, span {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
