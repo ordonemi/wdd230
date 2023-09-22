@@ -83,11 +83,29 @@ main h2:after {
 
 .card ul {
     list-style: none;
+    font-size: 20px;
 }
 
 .card ul li{
     padding: .8rem;
     text-align: left;
+}
+
+.card ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.card ul li a:visited{
+    color: black;
+}
+
+.card ul li a:hover{
+    text-decoration: underline;
+}
+
+.card ul p{
+    display: inline;
 }
 
 footer {
