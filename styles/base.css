@@ -24,28 +24,65 @@ header h1 {
 }
 
 nav {
+    max-width: 1000px;
+    margin: 1rem auto;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 1rem 2rem;
     background-color: #99B2DD;
-    width: 1000px;
-    margin: 0 auto;
 }
 
-nav a {
+.active::before {
+    content: "🌮";
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❎";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #99B2DD;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li a {
     display: block;
-    font-size: 30px;
+    padding: 1rem;
+    text-align: center;
     text-decoration: none;
-    padding: .8rem;
     color: black;
-    max-width: fit-content;
-    margin: 0 auto;
+    font-size: 30px;
 }
 
-nav a:visited {
-    color: black;
-}
-
-nav a:hover {
+.navigation li a:hover {
     color: #3A405A;
     text-decoration: underline;
+}
+
+.navigation li a:visited {
+    color: none;
+}
+
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
 }
 
 main {
@@ -124,4 +161,13 @@ footer p {
 #lastModified {
     padding-bottom: 30px;
     color: #F9DEC9;
+}
+
+#map {
+    margin: 40px auto;
+    width: 80%;
+}
+
+#map iframe {
+    width: 100%;
 }
