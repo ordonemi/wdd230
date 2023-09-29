@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Young+Serif&display=swap');
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid black;
+}
+
+main {
+    width: 80%;
+    border: 1px solid black;
+    margin: 30px auto;
+}
+
+
+
