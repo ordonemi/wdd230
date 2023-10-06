@@ -1,0 +1,32 @@
+@media screen and (min-width: 1500px){
+    header {
+        width: 90%;
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 90%;
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        flex-direction: row;
+        padding: 1.5rem;
+        justify-content: space-around;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #hero-image {
+        display: block;
+        margin: 0 auto;
+    }
+}
