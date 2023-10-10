@@ -1,15 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Young+Serif&display=swap');
 
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Young Serif', serif;
+}
+
 header{
     display: flex;
     justify-content: center;
     padding: 1.5rem;
     font-family: 'Young serif', serif;
+    background-color: #0b083d;
+    color: #ff7e1b;
+    width: 100%;
+    margin: 0 auto;
+    font-size: smaller;
 }
 
 header img{
     margin: 0 5%;
 }
+
+nav {
+    margin: 20px auto;
+    background-color: #0b083d;
+    width: 90%;
+}
+
+#hero-image {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 90%;
+}
+
 
 .navigation {
     display: flex;
@@ -18,13 +46,15 @@ header img{
 }
 
 #menu {
-    font-size: 1.5;
-    border: 1px solid black;
+    font-size: 2rem;
     padding: 1rem 2rem;
+    border: 0;
+    background-color: #0b083d;
 }
 
 #menu::before {
     content: "☰";
+    color: #ff7e1b;
 }
 
 #menu.open::before {
@@ -40,6 +70,20 @@ header img{
     padding: 1rem;
     text-align: center;
     text-decoration: none;
+    color: #ff7e1b;
+    font-family: 'Young Serif', serif;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.navigation li a:hover {
+    background-color: #ff7e1b;
+    color: #0b083d;
+
+}
+
+.navigation li a:visited {
+    color: #ff7e1b;
 }
 
 .open li {
@@ -50,3 +94,37 @@ header img{
 .open li a {
     display: block;
 }
+
+.card {
+    text-align: center;
+    margin: 60px auto;
+    padding: 1rem;
+    background-color: #0b083d;
+    color: #ff7e1b;
+    width: 90%;
+}
+
+#spotlights section {
+    padding: 1rem;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#spotlights {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    background-color: #0b083d;
+    color: #ff7e1b;
+    width: 90%;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #0b083d;
+    color: #ff7e1b;
+}
+
