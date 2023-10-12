@@ -25,6 +25,14 @@ header img{
     margin: 0 5%;
 }
 
+#mode {
+	position: absolute;
+	top: 10.5rem;
+	right: 5rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
+
 nav {
     margin: 20px auto;
     background-color: #0b083d;
@@ -72,7 +80,7 @@ nav {
     text-decoration: none;
     color: #ff7e1b;
     font-family: 'Young Serif', serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0 auto;
 }
 
@@ -102,6 +110,10 @@ nav {
     background-color: #0b083d;
     color: #ff7e1b;
     width: 90%;
+}
+
+.card h2 {
+    margin-bottom: 2rem;
 }
 
 #spotlights section {

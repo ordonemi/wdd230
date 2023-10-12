@@ -5,6 +5,13 @@
         font-size: larger;
     }
 
+    #mode {
+        position: relative;
+        top: 1px;
+        right: 1px;
+        width: fit-content;
+    }
+
     nav {
         width: 90%;
     }
@@ -39,6 +46,11 @@
     
     .card {
         width: 80%;;
+    }
+
+    #info {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
     }
 
     #spotlights {
