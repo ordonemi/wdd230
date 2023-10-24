@@ -1,0 +1,12 @@
+@media screen and (min-width: 800px){
+    #large, #small{
+        display: none;
+    }
+
+    #medium {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+}

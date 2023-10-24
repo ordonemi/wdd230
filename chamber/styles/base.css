@@ -46,7 +46,17 @@ nav {
 
 .hero {
     margin: 0 auto;
-    border: solid 1px black;
+    position: relative;
+}
+
+#large, #medium {
+    display: none;
+}
+
+#small {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .navigation {

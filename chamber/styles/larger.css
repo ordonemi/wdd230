@@ -59,4 +59,15 @@
         width: 90%;
     }
 
+    #small, #medium {
+        display: none;
+    }
+
+    #large {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 100px;
+    }
+
 }

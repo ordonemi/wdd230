@@ -12,9 +12,11 @@
     <title>Houston Chamber of Commerce Home Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+0    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 </head>
 <body>
     <header>
@@ -38,8 +40,11 @@
         <div class="hero">
             <picture>
                 <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
-                <source srcset="images/wdd230-org-medium.webp-+" media="(max-width: 1000px)">
+                <source srcset="images/wdd230-org-medium.webp" media="(max-width: 800px)">
                 <img src="images/wdd230-org-large.webp" alt="Trial Hero Image" width="1300" height="867">
+                <h2 id="large">Large</h2>
+                <h2 id="medium">Medium</h2>
+                <h2 id="small">Small</h2>
             </picture>
         </div>
         <div>
@@ -56,8 +61,19 @@
                 <section class="card">
                     <h2>Weather</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu maximus elit, vel rhoncus ipsum. 
-                        Sed sit amet dapibus elit.
+                        <span id="temperature">48</span> 
+                        &deg;F
+                    </p>
+                    <p>Clear</p>
+                    <p>
+                        Wind Speed: 
+                        <span id="windspeed">14</span>
+                         mph
+                    </p>
+                    <p>
+                        Wind Chill: 
+                        <span id="windchill">24</span>
+                        &deg;F
                     </p>
                 </section>
                 <section class="card">
