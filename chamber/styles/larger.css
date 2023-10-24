@@ -39,10 +39,6 @@
         display: grid;
         grid-template-columns: 70% 30%;
     }
-
-    #hero-image {
-        grid-column: 1/3;
-    }
     
     .card {
         width: 80%;;

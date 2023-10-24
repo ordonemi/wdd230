@@ -18,9 +18,9 @@
 </head>
 <body>
     <header>
-        <img src="images/astros_logo.png" alt="Astros Logo">
+        <img src="images/astros_logo.webp" alt="Astros Logo">
         <h1>Houston Chamber of Commerce</h1>
-        <img src="images/rockets_logo.png" alt="Rockets Logo">
+        <img src="images/rockets_logo.webp" alt="Rockets Logo">
         <div id="mode">
             🕶️
         </div>
@@ -35,11 +35,17 @@
         </ul>
     </nav>
     <main>
-        <img id="hero-image" src="https://placehold.co/1200x400" alt="Houston Skyline Image">
+        <div class="hero">
+            <picture>
+                <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
+                <source srcset="images/wdd230-org-medium.webp-+" media="(max-width: 1000px)">
+                <img src="images/wdd230-org-large.webp" alt="Trial Hero Image" width="1300" height="867">
+            </picture>
+        </div>
         <div>
             <section class="card">
                 <h2>Welcome to Houston: Where Opportunity Meets Innovation  </h2>
-                <img src="https://placehold.co/400x300" alt="Houston Spotlight">
+                <img src="images/houston.webp" alt="Houston Spotlight">
                 <p>
                     Nestled in the heart of the Lone Star State, Houston, Texas, is a city unlike any other. 
                     As the fourth-largest city in the United States, Houston boasts a dynamic blend of diverse cultures, vibrant industries, and a unique Southern charm that sets it apart. 
@@ -66,31 +72,24 @@
         <div id="spotlights">
             <section>
                 <h3>The Space Center Houston</h3>
-                <img src="https://placehold.co/300x240" alt="Spotlight 1">
                 <p>Space Center Houston is the official visitor center for NASA's Johnson Space Center. 
                     It offers a fascinating and interactive experience that educates visitors about space exploration, NASA's missions, and the history of the U.S. space program. 
-                    Visitors can explore exhibits, astronaut encounters, and even take a tram tour to get a behind-the-scenes look at the NASA facility. 
-                    It's a hub for space enthusiasts and a vital part of Houston's identity as Space City, USA.
+                    Visitors can explore exhibits, astronaut encounters, and even take a tram tour to get a behind-the-scenes look at the NASA facility.
                 </p>
             </section>
             <section>
                 <h3>Killen's BBQ</h3>
-                <img src="https://placehold.co/300x240" alt="Spotlight 2">
-                <p>Killen's BBQ is a Texas barbecue institution located in Pearland, a suburb of Houston. 
-                    Pitmaster Ronnie Killen is famous for his dedication to perfecting the art of smoked meats. 
-                    The restaurant offers a mouthwatering array of barbecue classics, including brisket, ribs, sausage, and smoked turkey, all cooked to perfection. 
-                    The meat is known for its rich flavor and tender, smoky goodness. Killen's BBQ has earned a loyal following not only in Houston but across the state and even nationally. 
+                <p>Killen's BBQ is a Texas barbecue institution located in Pearland, a suburb of Houston.  
+                    The restaurant offers a mouthwatering array of barbecue classics, including brisket, ribs, sausage, and smoked turkey, all cooked to perfection.
+                    Killen's BBQ has earned a loyal following not only in Houston but across the state and even nationally. 
                     It's a must-visit spot for barbecue enthusiasts seeking authentic Texas flavor.
                 </p>
             </section>
             <section>
                 <h3>Urban Harvest Farmers Market</h3>
-                <img src="https://placehold.co/300x240" alt="Spotlight 3">
                 <p>The Urban Harvest Farmers Market is one of the largest and most popular farmers' markets in Houston. 
                     It offers a wide variety of fresh, locally grown produce, artisanal products, baked goods, and more. 
-                    You can find everything from fresh fruits and vegetables to handmade crafts and prepared foods. 
                     This market is known for promoting sustainable agriculture and supporting local farmers, making it a great place to explore and purchase high-quality, locally sourced products. 
-                    The market often hosts special events, cooking demonstrations, and educational activities as well.
                 </p>
             </section>
         <div>

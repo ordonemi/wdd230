@@ -39,13 +39,15 @@ nav {
     width: 90%;
 }
 
-#hero-image {
-    display: block;
-    margin: 0 auto;
-    margin-top: 60px;
-    width: 90%;
+.hero img{
+    width: 100%;
+    height: auto;
 }
 
+.hero {
+    margin: 0 auto;
+    border: solid 1px black;
+}
 
 .navigation {
     display: flex;
