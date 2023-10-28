@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
-0    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
@@ -30,7 +30,7 @@
     <nav>
         <button id="menu"></button>
         <ul class="navigation">
-            <li><a href="BLANK">Home</a></li>
+            <li><a class="active" href="#">Home</a></li>
             <li><a href="BLANK">Discover</a></li>
             <li><a href="BLANK">Directory</a></li>
             <li><a href="BLANK">Join</a></li>
@@ -39,15 +39,12 @@
     <main>
         <div class="hero">
             <picture>
-                <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
-                <source srcset="images/wdd230-org-medium.webp" media="(max-width: 800px)">
-                <img src="images/wdd230-org-large.webp" alt="Trial Hero Image" width="1300" height="867">
-                <h2 id="large">Large</h2>
-                <h2 id="medium">Medium</h2>
-                <h2 id="small">Small</h2>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 800px)">
+                <img src="images/hero.webp" alt="View of Downtown Houston" width="1500" height="922">
             </picture>
         </div>
-        <div>
+        <div class="cards">
             <section class="card">
                 <h2>Welcome to Houston: Where Opportunity Meets Innovation  </h2>
                 <img src="images/houston.webp" alt="Houston Spotlight">
@@ -78,10 +75,11 @@
                 </section>
                 <section class="card">
                     <h2>Upcoming Events</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu maximus elit, vel rhoncus ipsum. 
-                        Sed sit amet dapibus elit.
-                    </p>
+                    <p>October 29th - Houston Soul Food Festival</p>
+                    <p>November 4th - Utopia Fall Reggae Fest</p>
+                    <p>November 28th - Texas Small Business Expo</p>
+                    <p>November 30th - Houston Career Fair</p>
+                    <a href="https://www.eventbrite.com/d/tx--houston/all-events/" target="_blank">Click Here to find more events!</a>
                 </section>
             </section>
         </div>

@@ -46,17 +46,6 @@ nav {
 
 .hero {
     margin: 0 auto;
-    position: relative;
-}
-
-#large, #medium {
-    display: none;
-}
-
-#small {
-    position: absolute;
-    top: 10px;
-    left: 10px;
 }
 
 .navigation {
@@ -102,8 +91,16 @@ nav {
 
 }
 
+.active::before {
+    content: "🏀";
+}
+
 .navigation li a:visited {
     color: #ff7e1b;
+}
+
+.navigation li a:visited:hover {
+    color: #0b083d;
 }
 
 .open li {
@@ -126,6 +123,16 @@ nav {
 
 .card h2 {
     margin-bottom: 2rem;
+}
+
+.card a{
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7e1b;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
 }
 
 #spotlights section {

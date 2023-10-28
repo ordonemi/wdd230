@@ -34,10 +34,11 @@
         display: none;
     }
 
-    div {
+    .cards {
         width: 90%;
         display: grid;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 60% 40%;
+        margin: 0 auto;
     }
     
     .card {
@@ -70,4 +71,9 @@
         left: 100px;
     }
 
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
