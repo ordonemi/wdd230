@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <script src="scripts/getdate.js" defer></script>
-    <script src="scripts/getLastVisit.js" defer></script>
+    <script src="scripts/daysSinceLastVisit.js" defer></script>
 </head>
 <body>
     <header>
@@ -39,8 +39,7 @@
     <main id="discover">
         <section id="sidebar">
             <section class="sidebar-box">
-                <h2>Welcome!</h2>
-                <p>Whether you're a local entrepreneur seeking new opportunities or a visitor looking to explore all that Houston has to offer, you've come to the right place. Join us as we unveil the diverse tapestry of this thriving metropolis, showcasing its rich history, thriving industries, and the countless experiences that make Houston an exceptional place to live, work, and play.</p>
+                <h2><span id="lastVisit"></span></h2>
             </section>
             <section class="sidebar-box">
                 <h2>Discover us!</h2>
@@ -48,20 +47,25 @@
             </section>
             <section class="sidebar-box">
                 <h2>What Makes Us Stand Out?</h2>
-                <p>1. Business-Friendly Environment<br>Houston prides itself on being one of the most business-friendly cities in the United States. It has no state or local income tax, which makes it an attractive destination for entrepreneurs and corporations.</p>
-                <p>2. Energy Hub<br>Houston is often referred to as the "Energy Capital of the World." It hosts the headquarters of numerous energy giants and is a global leader in energy research, production, and distribution.</p>
-                <p>3. Quality of Life<br>Houston offers an exceptional quality of life with a low cost of living, excellent healthcare facilities, world-class cultural institutions, and a diverse culinary scene. Its warm climate, affordable housing, and rich cultural experiences make it an appealing destination for both employees and business owners.</p>
-                <p>4. Talented Workforce<br>Houston is home to a highly educated and diverse workforce. With over 60 colleges and universities in the Greater Houston area, businesses can tap into a pool of skilled professionals across various fields.</p>
-                <p>5. Infrastructure and Connectivity<br>Houston boasts a well-developed infrastructure with extensive road networks, a major international airport, and a growing public transportation system. Its strategic location enables businesses to efficiently reach customers, suppliers, and partners, both domestically and globally.</p>
+                <h3>1. Business-Friendly Environment</h3>
+                <p>Houston prides itself on being one of the most business-friendly cities in the United States. It has no state or local income tax, which makes it an attractive destination for entrepreneurs and corporations.</p>
+                <h3>2. Energy Hub</h3>
+                <p>Houston is often referred to as the "Energy Capital of the World." It hosts the headquarters of numerous energy giants and is a global leader in energy research, production, and distribution.</p>
+                <h3>3. Quality of Life</h3>
+                <p>Houston offers an exceptional quality of life with a low cost of living, excellent healthcare facilities, world-class cultural institutions, and a diverse culinary scene. Its warm climate, affordable housing, and rich cultural experiences make it an appealing destination for both employees and business owners.</p>
+                <h3>4. Talented Workforce</h3>
+                <p>Houston is home to a highly educated and diverse workforce. With over 60 colleges and universities in the Greater Houston area, businesses can tap into a pool of skilled professionals across various fields.</p>
+                <h3>5. Infrastructure and Connectivity</h3>
+                <p>Houston boasts a well-developed infrastructure with extensive road networks, a major international airport, and a growing public transportation system. Its strategic location enables businesses to efficiently reach customers, suppliers, and partners, both domestically and globally.</p>
             </section>
         </section>
         <section id="images">
-            <img src="https://placehold.co/600x400" alt="PLACEHOLDER">
-            <img src="https://placehold.co/600x400" alt="PLACEHOLDER">
-            <img src="https://placehold.co/600x400" alt="PLACEHOLDER">
-            <img src="https://placehold.co/600x400" alt="PLACEHOLDER">
-            <img src="https://placehold.co/600x400" alt="PLACEHOLDER">
-            <img src="https://placehold.co/600x400" alt="PLACEHOLDER">
+            <img src="images/skyview.webp" alt="Skyline view of Downtown Houston" loading="lazy">
+            <img src="images/night-view.webp" alt="Downtown Houston" loading="lazy">
+            <img src="images/train.webp" alt="Houston Metro" loading="lazy">
+            <img src="images/rodeo.webp" alt="Houston Rodeo" loading="lazy">
+            <img src="images/street-view.webp" alt="View of People Walking Accross Street" loading="lazy">
+            <img src="images/toyota-center.webp" alt="Skyview of the Toyota Center" loading="lazy">
         </section>
     </main>
     <footer>

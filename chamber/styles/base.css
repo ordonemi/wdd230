@@ -161,12 +161,12 @@ footer {
 
 /* DISCOVER PAGE HTML */
 #discover {
-    margin: 50px auto;
+    margin: 10px auto;
 }
 
 .sidebar-box {
     padding: 2rem;
-    margin: 60px auto;
+    margin: 10px auto;
     background-color: #0b083d;
     color: #ff7e1b;
 }
