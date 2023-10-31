@@ -161,7 +161,34 @@ footer {
 
 /* DISCOVER PAGE HTML */
 #discover {
-    border: solid black 1px;
-    margin: 0 auto;
+    margin: 50px auto;
+}
+
+.sidebar-box {
+    padding: 2rem;
+    margin: 60px auto;
+    background-color: #0b083d;
+    color: #ff7e1b;
+}
+
+.sidebar-box iframe {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.sidebar-box h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#images {
+    border: solid 1px black;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #0b083d;
+}
+
+#images img {
+    margin: 30px auto;
 }
 

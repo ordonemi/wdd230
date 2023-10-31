@@ -76,4 +76,23 @@
         align-items: center;
         justify-content: center;
     }
+
+    /* DISCOVER PAGE HTML */
+
+    #discover {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    .sidebar-box {
+        margin: 150px auto;
+    }
+
+    #images {
+        width: 90%;
+        justify-self: right;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
 }
