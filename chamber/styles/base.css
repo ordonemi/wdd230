@@ -16,7 +16,6 @@ header{
     font-family: 'Young serif', serif;
     background-color: #0b083d;
     color: #ff7e1b;
-    width: 100%;
     margin: 0 auto;
     font-size: smaller;
 }
@@ -34,9 +33,8 @@ header img{
 }
 
 nav {
-    margin: 20px auto;
     background-color: #0b083d;
-    width: 90%;
+    margin: 10px auto;
 }
 
 .hero img{
@@ -152,7 +150,6 @@ nav {
 }
 
 footer {
-    margin: 0 auto;
     padding: 1rem;
     text-align: center;
     background-color: #0b083d;
@@ -171,24 +168,18 @@ footer {
     color: #ff7e1b;
 }
 
-.sidebar-box iframe {
-    width: 100%;
-    margin-bottom: 50px;
-}
-
 .sidebar-box h2 {
     text-align: center;
-    margin-bottom: 50px;
 }
 
 #images {
-    border: solid 1px black;
     text-align: center;
-    padding-top: 30px;
     background-color: #0b083d;
+    color: #ff7e1b;
+    padding-top: 10px;
 }
 
 #images img {
-    margin: 30px auto;
+    margin-bottom: 70px;
 }
 

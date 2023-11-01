@@ -1,7 +1,6 @@
 @media screen and (min-width: 1500px){
     header {
         width: 90%;
-        margin: 0 auto;
         font-size: larger;
     }
 
@@ -10,10 +9,6 @@
         top: 1px;
         right: 1px;
         width: fit-content;
-    }
-
-    nav {
-        width: 90%;
     }
 
     .navigation {
@@ -56,21 +51,6 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    footer {
-        width: 90%;
-    }
-
-    #small, #medium {
-        display: none;
-    }
-
-    #large {
-        display: block;
-        position: absolute;
-        top: 15px;
-        left: 100px;
-    }
-
     .hero{
         display: flex;
         align-items: center;
@@ -91,13 +71,14 @@
         margin-top: 0;
     }
 
-    #sidebar {
+    #images {
+        width: 100%;
+        grid-column: 2/3;
         border: solid 1px black;
     }
 
-    #images {
-        justify-self: right;
-        grid-column: 2/3;
-        grid-row: 1/3;
+    #images img:hover {
+        box-shadow: 0 0 20px #ff7e1b;
     }
+
 }
