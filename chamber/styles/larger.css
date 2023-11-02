@@ -1,14 +1,6 @@
 @media screen and (min-width: 1500px){
     header {
-        width: 90%;
         font-size: larger;
-    }
-
-    #mode {
-        position: relative;
-        top: 1px;
-        right: 1px;
-        width: fit-content;
     }
 
     .navigation {
@@ -29,33 +21,41 @@
         display: none;
     }
 
+    .welcome-card {
+        width: 97%;
+    }
+
+    #info {
+        display: block;
+    }
     .cards {
         width: 90%;
         display: grid;
         grid-template-columns: 60% 40%;
         margin: 0 auto;
     }
-    
-    .card {
-        width: 80%;;
-    }
 
-    #info {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
+    .card{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 94%;
+        margin-left: 10px;
     }
 
     #spotlights {
         width: 90%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px auto;
     }
 
     .hero{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center
     }
+
+
 
     /* DISCOVER PAGE HTML */
 

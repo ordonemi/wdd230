@@ -11,7 +11,7 @@ if (localStorage.getItem("lastVisit"))
     {
         message.textContent = "Back so soon! Awesome!";
     }
-    else if (daysBetweenVisits == 1)
+    else if (daysBetweenVisits.toFixed(0) == 1)
     {
         message.textContent = "You last visited 1 day ago.";
     }
