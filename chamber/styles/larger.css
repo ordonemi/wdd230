@@ -55,7 +55,12 @@
         justify-content: center
     }
 
-
+    .hero button {
+        position: absolute;
+        top: 40px;
+        right: 43%;
+        font-size: xx-large;
+    }
 
     /* DISCOVER PAGE HTML */
 

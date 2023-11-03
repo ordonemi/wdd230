@@ -23,6 +23,12 @@
         column-gap: 10px;
     }
 
+    .hero button {
+        position: absolute;
+        top: 30px;
+        right: 42%
+    }
+
     /* discover page html */
 
     #discover {
