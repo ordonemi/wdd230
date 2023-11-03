@@ -7,6 +7,10 @@ p {
     line-height: 2rem;
 }
 
+button {
+    font-family: 'Young Serif', serif; 
+}
+
 h1, h2, h3 {
     font-family: 'Young Serif', serif;
 }
@@ -41,7 +45,21 @@ nav {
 }
 
 .hero {
-    margin: 0 auto;
+    position: relative;
+}
+.hero button {
+    position: absolute;
+    top: 30px;
+    right: 38%;
+    font-size: x-large;
+    background-color: #0b083d;
+    color: #ff7e1b;
+    padding: .6rem 1rem;
+    border: none;
+}
+
+.hero button:hover {
+    box-shadow: 0 0 20px #ff7e1b;
 }
 
 .navigation {
