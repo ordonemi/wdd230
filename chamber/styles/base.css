@@ -232,3 +232,35 @@ footer {
     margin-bottom: 18px;
 }
 
+/* JOING PAGE HTML */
+
+#join form{
+    text-align: left;
+}
+
+textarea {
+    display: block;
+}
+
+input {
+    display: block;
+    padding: .4rem;
+}
+
+#nonprofit, #bronze, #silver, #gold{
+    display: inline;
+}
+
+form button {
+    display: block;
+}
+
+label {
+    display: block;
+    margin: 0.8rem 0;
+}
+
+.radio {
+    display: inline;
+}
+

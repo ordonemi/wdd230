@@ -86,4 +86,19 @@
         box-shadow: 0 0 20px #ff7e1b;
     }
 
+    /* JOIN PAGE HTML */
+    
+    #join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        border: solid 1px black;
+        margin: 10px auto;
+        column-gap: 10px;
+    }
+
+    #membership-levels {
+        border: black solid 1px;
+    }
+
 }
