@@ -37,7 +37,7 @@
             <fieldset>
             <label>First Name:<input id="first-name" name="first-name" type="text" required></label>
             <label>Last Name:<input id="last-name" name="last-name" type="text" required></label>
-            <label>Title or Position:<input id="title" name="title" type="text" required></label>
+            <label>Title or Position:<input id="title" name="title" type="text" required pattern="[A-Za-z -]{7,}"></label>
             <label>Email:<input id="email" name="email" type="email" placeholder="example@gmail.com" required></label>
             <label>Mobile Phone:<input name="phone" id="phone" type="telephone" required></label>
             <label>Business/Organization Name:<input name="business" id="business" type="text" required></label>
@@ -56,7 +56,33 @@
             </fieldset>
         </form>
         <section id="membership-levels">
-            <p>PLACEHOLDER</p>
+            <h1>Membership Levels</h1>
+            <h2>NP Membership</h2>
+            <ul>
+                <li>For non-profit organizations membership is free. No fees due.</li>
+            </ul>
+            <h2>Bronze Membership</h2>
+            <ul>
+                <li>15% discount on events</li>
+                <li>10% discount on advertising</li>
+                <li>Fee of $50/month</li>
+            </ul>
+            <h2>Silver Membership</h2>
+            <ul>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>Fee of $100/month</li>
+            </ul>
+            <h2>Gold Membership</h2>
+            <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year</li>
+                <li>1 free training per quarter</li>
+                <li>Fee of $250/month</li>
+            </ul>
         </section>
     </main>
     <footer>

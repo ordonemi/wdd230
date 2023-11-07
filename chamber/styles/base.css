@@ -2,7 +2,7 @@
 * {
     margin: 0;
 }
-p {
+p, li {
     font-family: 'Montserrat', sans-serif;
     line-height: 2rem;
 }
@@ -36,7 +36,7 @@ header {
 
 nav {
     background-color: #0b083d;
-    margin: 10px auto;
+    margin: 10px 0;
 }
 
 .hero img{
@@ -234,17 +234,41 @@ footer {
 
 /* JOING PAGE HTML */
 
+#join {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+}
 #join form{
     text-align: left;
 }
 
+#join fieldset {
+    background-color: #0b083d;
+}
+
 textarea {
     display: block;
+    width: 40rem;
+    height: 5rem;
+    margin-top: 0.8rem;
+}
+
+label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7e1b;
+    margin: 2rem 0;
+    font-size: x-large;
 }
 
 input {
     display: block;
     padding: .4rem;
+    margin-top: .8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    width: 30rem;
 }
 
 #nonprofit, #bronze, #silver, #gold{
@@ -252,15 +276,50 @@ input {
 }
 
 form button {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     display: block;
+    padding: 0.8rem;
+    font-size: xx-large;
+    background-color: #0b083d;
+    border: #ff7e1b 1px solid;
+    color: #ff7e1b;
 }
 
-label {
-    display: block;
-    margin: 0.8rem 0;
+form button {
+    box-shadow: 0 0 15px #ff7e1b;
 }
 
 .radio {
     display: inline;
 }
 
+#bronze, #silver, #nonprofit, #gold {
+    width: fit-content;
+}
+
+#membership-levels {
+    background-color: #0b083d;
+    color: #ff7e1b;
+    padding: 0 3rem;
+    margin-bottom: 15px;
+    padding-bottom: 2rem;
+}
+#membership-levels h1 {
+    margin: 3rem 0;
+}
+#membership-levels h2 {
+    margin: 1rem 0;
+}
+
+/* thankyou.html */
+
+#thankyou section {
+    background-color: #0b083d;
+    color: #ff7e1b;
+    margin-bottom: 10px;
+    padding: 1rem;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+}
