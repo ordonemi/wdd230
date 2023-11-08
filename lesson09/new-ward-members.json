@@ -1,0 +1,23 @@
+{
+    "name":"Ordonez",
+    "moveInDate":"04/12/2023",
+    "familySize":3,
+    "visited":true,
+    "members":[
+        {
+            "name":"Emilio",
+            "gender":"M",
+            "birthdate":"05/05/2001"
+        },
+        {
+            "name":"Miranda",
+            "gender":"F",
+            "birthdate":"06/09/2006"
+        },
+        {
+            "name":"Martin",
+            "gender":"M",
+            "birthdate":"04/02/1978"
+        }
+    ]
+}
