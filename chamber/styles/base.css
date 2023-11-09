@@ -15,6 +15,16 @@ h1, h2, h3 {
     font-family: 'Young Serif', serif;
 }
 
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7e1b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header {
     padding: 1.5rem;
     font-family: 'Young serif', serif;
@@ -142,16 +152,6 @@ nav {
 
 .card h2 {
     margin-bottom: 10px;
-}
-
-.card a{
-    font-family: 'Montserrat', sans-serif;
-    color: #ff7e1b;
-    text-decoration: none;
-}
-
-.card a:hover {
-    text-decoration: underline;
 }
 
 .welcome-card {
@@ -323,3 +323,68 @@ form button {
     padding-top: 10rem;
     padding-bottom: 20rem;
 }
+
+/* DIRECTORY.HTML */
+
+#directory div {
+    margin-bottom: 10px;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #0b083d;
+}
+
+#directory div button {
+    background-color: #0b083d;
+    border: #ff7e1b solid 0.5px;
+    box-shadow: 0 0 10px #ff7e1b;
+    color: #ff7e1b;
+    padding: 0.4rem 1rem;
+    font-size: x-large;
+    margin: 0 0.8rem;
+}
+
+
+#display section {
+    margin-bottom: 10px;
+    background-color: #0b083d;
+    color: #ff7e1b;
+}
+
+.grid {
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 10px;
+}
+
+.grid section{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.grid img {
+    margin-bottom: 1rem;
+}
+
+.grid p {
+    line-height: 1.5rem;
+}
+
+.grid #name {
+    display: none;
+    margin: 0;
+}
+
+.list section {
+    padding: 2rem;
+}
+
+.list img {
+    display: none;
+}
+
+.list p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4rem;
+}
+
