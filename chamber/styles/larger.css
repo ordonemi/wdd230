@@ -123,6 +123,10 @@
         margin: 0 1.4rem;
     }
 
+    #display section {
+        margin-bottom: 0;
+    }
+
     .grid {
         margin: 0 10px;
     }
