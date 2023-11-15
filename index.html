@@ -17,6 +17,7 @@
     <link rel="icon" href="favicon.ico">
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/getLastVisit.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
     <header>
@@ -57,11 +58,13 @@
                 <li><p>Lesson 07: </p><a href="lesson07/lazyload.html">Lazy Load Demonstration | </a><a href="lesson07/bom.html">BOM Favorite Chapters + Local Storage</a></li>
                 <li><p>Lesson 08: </p><a href="lesson08/tablebuild.html">HTML Tables</a></li>
                 <li><p>Lesson 09: </p><a href="lesson09/new-ward-members.json">JSON | </a><a href="lesson09/prophets.html">Prophets API</a></li>
+                <li><p>Lesson 10: </p><a href="lesson10/weather.html"> Testing Weather API</a></li>
             </ul>
         </section>
         <section class="card">
             <h3>Information</h3>
-            <p>Houston, Texas <br>80&deg; - Cloudy</p>
+            <img id="weather-icon" src="" alt="">
+            <p>Houston, Texas<br><br><span id="weather"></span></p>
             <p>Page Visits: <span id="pageVisits"></span></p>
         </section>
     </main>
