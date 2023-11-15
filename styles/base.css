@@ -7,8 +7,7 @@ header {
     display: grid;
     grid-template-columns: auto auto;
     background-color: #3A405A;
-    width: 1000px;
-    margin: 0 auto;
+    width: 100%;
     color: white;
     text-align: center;
 }
@@ -86,8 +85,7 @@ nav {
 }
 
 main {
-    width: 850px;
-    margin: 0 auto;
+    width: 100%;
     text-align: center;
 }
 
@@ -146,7 +144,7 @@ main h2:after {
 }
 
 footer {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     background-color: #3A405A;
@@ -197,4 +195,10 @@ picture img {
 #hero-label p {
 	margin: 0;
     font-size: 1.3rem;
+}
+
+#weather-card img
+{
+    display: block;
+    margin: 0 auto;
 }
