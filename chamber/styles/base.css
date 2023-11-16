@@ -144,8 +144,15 @@ nav {
 .open li a {
     display: block;
 }
-
 #banner {
+    display: none;
+}
+
+#banner-button {
+    display: none;
+}
+#banner.show {
+    display: block;
     width: 100%;
     background-color: #0b083d;
     color: #ff7e1b;
@@ -155,11 +162,12 @@ nav {
     text-align: center;
 }
 
-#banner-button::before {
+#banner-button.show::before {
     content: "❌";
 }
 
-#banner-button {
+#banner-button.show {
+    display: inline;
     position: absolute;
     left: 3px;
     top: 3px;
@@ -169,7 +177,7 @@ nav {
     border: 0;
 }
 
-#banner-button:hover {
+#banner-button.show:hover {
     border: 0.5px solid #ff7e1b;
     box-shadow: 0 0 15px #ff7e1b;
 }
