@@ -17,7 +17,10 @@
     <link rel="icon" href="favicon.ico">
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/darkMode.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/hideBanner.js" defer></script>
 </head>
 <body>
     <header>
@@ -42,6 +45,10 @@
             </picture>
             <button>Join Today!</button>
         </div>
+        <section id="banner">
+            <button id="banner-button"></button>
+            <h2>Don't forget to attend the chamber of commerce meet and greet this Wednesday at 7:00 pm!</h2>
+        </section>
         <div class="cards">
             <section class="welcome-card">
                 <h2>Welcome to Houston: Where Opportunity Meets Innovation  </h2>
@@ -55,21 +62,27 @@
             <section id="info">
                 <section class="card">
                     <h2>Weather</h2>
-                    <p>
-                        <span id="temperature">48</span> 
-                        &deg;F
-                    </p>
-                    <p>Clear</p>
-                    <p>
-                        Wind Speed: 
-                        <span id="windspeed">14</span>
-                         mph
-                    </p>
-                    <p>
-                        Wind Chill: 
-                        <span id="windchill">24</span>
-                        &deg;F
-                    </p>
+                    <img id="weather-icon" src="" alt="">
+                    <p><span id="temperature"></span></p>
+                    <p>Wind Speed:<span id="windspeed"></span> mph</p>
+                    <p>Wind Chill: <span id="windchill"></span></p>
+                    <section id="forecast">
+                        <section>
+                            <h3><span id="first-date"></span></h3>
+                            <img id="first-icon" src="" alt="">
+                            <p><span id="today"></span></p>
+                        </section>
+                        <section>
+                            <h3><span id="second-date"></span></h3>
+                            <img id="second-icon" src="" alt="">
+                            <p><span id="tomorrow"></span></p>
+                        </section>
+                        <section>
+                            <h3><span id="third-date"></span></h3>
+                            <img id="third-icon" src="" alt="">
+                            <p><span id="thirdDay"></span></p>
+                        </section>
+                    </section>
                 </section>
                 <section class="card">
                     <h2>Upcoming Events</h2>

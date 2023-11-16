@@ -1,6 +1,7 @@
 @media screen and (min-width: 1500px){
-    header {
-        font-size: larger;
+
+    header img {
+        width: fit-content;
     }
 
     .navigation {
@@ -21,32 +22,33 @@
         display: none;
     }
 
-    .welcome-card {
-        width: 97%;
+    .hero img{
+        width: 100%;
+        height: auto;
+    }
+
+    .cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1.2fr;
+        grid-gap: 10px;
     }
 
     #info {
-        display: block;
-    }
-    .cards {
-        width: 90%;
-        display: grid;
-        grid-template-columns: 60% 40%;
-        margin: 0 auto;
-    }
-
-    .card{
-        margin-top: 10px;
-        margin-bottom: 0px;
-        width: 94%;
-        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
     }
 
     #spotlights {
-        width: 90%;
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 10px auto;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    #spotlights section:nth-child(2) {
+        padding: 0;
     }
 
     .hero{
