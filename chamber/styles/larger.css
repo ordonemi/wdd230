@@ -67,9 +67,9 @@
     /* DISCOVER PAGE HTML */
 
     #discover {
-        width: 90%;
+        width: 100%;
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 40% auto;
         column-gap: 10px;
     }
 
@@ -79,9 +79,12 @@
     }
 
     #images {
-        width: 100%;
         grid-column: 2/3;
         border: solid 1px black;
+    }
+
+    #images img {
+        width: auto;
     }
 
     #images img:hover {
@@ -90,21 +93,31 @@
 
     /* JOIN PAGE HTML */
     
-    #join form {
-        margin-bottom: 10px;
-    }
-
     #join {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        width: 90%;
+        width: 100%;
         margin: 10px auto;
         column-gap: 10px;
     }
 
+    textarea {
+        width: 35rem;
+    }
+    
+    label {
+        font-size: x-large;
+        width: 30rem;
+    }
+    
+    input {
+        width: 30rem;
+        font-size: x-large;
+    }
+
     #membership-levels {
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
 
     /* thankyou.html */

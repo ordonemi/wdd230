@@ -259,9 +259,21 @@ footer {
     color: #ff7e1b;
 }
 
+#forecast {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#tomorrow {
+    margin: 0;
+}
+
 /* DISCOVER PAGE HTML */
 #discover {
-    margin: 10px auto;
+    margin: 10px 0;
+    width: 100%;
 }
 
 .sidebar-box {
@@ -285,25 +297,16 @@ footer {
     background-color: #0b083d;
     color: #ff7e1b;
     padding-top: 20px;
+    width: 100%;
 }
 
 #images img {
     margin-bottom: 70px;
+    width: 98%;
 }
 
 #images h3{
     margin-bottom: 18px;
-}
-
-#forecast {
-    padding-top: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-#tomorrow {
-    margin: 0;
 }
 
 /* JOING PAGE HTML */
@@ -312,9 +315,11 @@ footer {
     display: grid;
     grid-template-rows: 1fr 1fr;
     row-gap: 10px;
+    width: 100%;
 }
 #join form{
     text-align: left;
+    width: 100%;
 }
 
 #join fieldset {
@@ -323,7 +328,7 @@ footer {
 
 textarea {
     display: block;
-    width: 40rem;
+    width: 30rem;
     height: 5rem;
     margin-top: 0.8rem;
 }
@@ -333,7 +338,7 @@ label {
     font-family: 'Montserrat', sans-serif;
     color: #ff7e1b;
     margin: 2rem 0;
-    font-size: x-large;
+    font-size: large;
 }
 
 input {
@@ -341,8 +346,8 @@ input {
     padding: .4rem;
     margin-top: .8rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
-    width: 30rem;
+    font-size: large;
+    width: 25rem;
 }
 
 #nonprofit, #bronze, #silver, #gold{
@@ -376,7 +381,7 @@ form button {
     background-color: #0b083d;
     color: #ff7e1b;
     padding: 0 3rem;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding-bottom: 2rem;
 }
 #membership-levels h1 {
@@ -399,6 +404,9 @@ form button {
 }
 
 /* DIRECTORY.HTML */
+#directory {
+    margin-bottom: 10px;
+}
 
 #directory div {
     margin-bottom: 10px;
@@ -430,8 +438,10 @@ form button {
 }
 
 .grid section{
+    width: 100%;
     text-align: center;
     padding: 3rem 0;
+    margin: 0;
 }
 
 .grid img {
