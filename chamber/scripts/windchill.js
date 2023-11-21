@@ -19,3 +19,7 @@ function getWindChill(temp, speed){
 }
 
 getWindChill(temperature,windspeed);
+
+document.querySelector('#join-today').addEventListener('click', () => {
+    location.href = "join.html";
+});
