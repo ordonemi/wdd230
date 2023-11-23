@@ -11,12 +11,14 @@ async function getDirectoryData() {
 const displayBusinesses = (businesses) => {
     businesses.forEach((business) => {
         let card = document.createElement('section');
+        let logoBox = document.createElement('div');
         let logo = document.createElement('img');
         let name = document.createElement('p');
         let address = document.createElement('p');
         let phone = document.createElement('p');
         let url = document.createElement('a');
         
+        logoBox.setAttribute('class','logo-box');
         logo.setAttribute('src',business.image);
         logo.setAttribute('alt', `${business.name} logo`)
         url.setAttribute('href',`${business.website}`);
@@ -26,7 +28,8 @@ const displayBusinesses = (businesses) => {
         phone.textContent = `${business.phoneNum}`;
         url.textContent = `${business.website}`;
         name.setAttribute('id','name');
-        card.appendChild(logo);
+        card.appendChild(logoBox);
+        logoBox.appendChild(logo);
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phone);

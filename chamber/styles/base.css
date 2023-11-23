@@ -408,7 +408,7 @@ form button {
     margin-bottom: 10px;
 }
 
-#directory div {
+#options {
     margin-bottom: 10px;
     padding: 1rem 0;
     text-align: center;
@@ -469,5 +469,13 @@ form button {
     margin: 0;
     padding: 0;
     line-height: 1.4rem;
+}
+
+.logo-box {
+    height: 200px;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
