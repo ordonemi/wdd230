@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    padding: 3rem 0;
+}
+
+form {
+    border: solid black 2px;
+    width: 23rem;
+    padding: 0.4rem 1.2rem;
+    margin: 0 auto;
+    background-color: darkcyan;
+}
+
+label {
+    display: block;
+    padding: 0.5rem 0;
+}
+
+input {
+    display: block;
+    padding: 0.2rem 0;
+    margin-top: 2px;
+}
+
+.radio {
+    display: inline;
+}
+
+#button {
+    padding: 0.3rem 0.7rem;
+}
+
+section {
+    width: 23rem;
+    margin: 0 auto;
+    border: solid black 2px;
+    padding: 1rem 0.8rem;
+    line-height: 2rem;
+    background-color: darkcyan;
+}
