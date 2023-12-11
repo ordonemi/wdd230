@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The order drink page for Bountiful Foods business.">
+    <meta name="author" content="Emilio Ordonez Guerrero">
+    <meta property="og:title" content="Bountiful Foods Home Page">
+    <meta property="og:type" content="website">
+    <meta property="imaage" content="https://geneticliteracyproject.org/wp-content/uploads/elementor/thumbs/local-pe4v26so2x3qshrh6qew2gq2ofiuwy11rjsoqi7wmg.jpg">
+    <meta property="url" content="PLACEHOLDER">
+    <title>Order Drink</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/getLastModified.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Bountiful Foods</h1>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="orderDrink.html">Order Drink</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="orderDrink">
+        <form action="confirmation.html" method="get">
+            <fieldset>
+                <label>First Name:<input id="first-name" name="first-name" type="text" required></label>
+                <label>Email:<input id="email" name="email" type="email" placeholder="example@gmail.com" required></label>
+                <label>Phone Number:<input name="phone" id="phone" type="tel" required></label>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id='currentYear'></span> - Emilio Ordonez Guerrero</p>
+        <ul>Sources:
+            <li>https://www.fruityvice.com/</li>
+            <li>https://openweathermap.org/</li>
+        </ul>
+        <ul>Bountiful Foods
+            <li>Address: 123 Ocean View Avenue, Carlsbad, California, 92008</li>
+            <li>Phone: (760) 555-1234</li>
+            <li>Email: info@bountifulfoods.com</li>
+        </ul>
+        <section id="social-media">
+            <img src="https://placehold.co/50x50" alt="Twitter">
+            <img src="https://placehold.co/50x50" alt="Facebook">
+            <img src="https://placehold.co/50x50" alt="Instagram">
+        </section>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
