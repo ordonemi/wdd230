@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3 {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+p, li, ul {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    border: solid 1px black;
+    width: 100%;
+}
+
+.navigation{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#menu {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border: 0;
+    background-color: aqua;
+}
+
+#menu::before {
+    content: "☰";
+    color: black;
+}
+
+#menu.open::before{
+    content: "❎";
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li a{
+    display: block;
+    padding: 0.5rem 0.4rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.open li {
+    display: block;
+}
+
+#action-call {
+    border: solid 1px black;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+#action-call a{
+    font-family: 'Comfortaa', sans-serif;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+
+#coastal-summaries {
+    border: solid 1px black;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+#coastal-summaries section {
+    border: solid 1px black;
+    width: 100%;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+}
+
+#coastal-summaries h2 {
+    margin-bottom: 0.5rem;
+}
+
+#weather-today {
+    border: solid 1px black;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#weather-today p{
+    line-height: 2rem;
+}
+
+#forecast {
+    border: solid 1px black;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+#forecast h2{
+    margin-bottom: 2rem;
+}
+
+#forecast p{
+    margin-bottom: 3rem;
+}
+
+#drinks {
+    border: solid 1px black;
+    width: 100%;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    border: solid 1px black;
+}
