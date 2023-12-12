@@ -7,16 +7,19 @@
     <meta name="author" content="Emilio Ordonez Guerrero">
     <meta property="og:title" content="Bountiful Foods Home Page">
     <meta property="og:type" content="website">
-    <meta property="imaage" content="https://geneticliteracyproject.org/wp-content/uploads/elementor/thumbs/local-pe4v26so2x3qshrh6qew2gq2ofiuwy11rjsoqi7wmg.jpg">
+    <meta property="image" content="https://geneticliteracyproject.org/wp-content/uploads/elementor/thumbs/local-pe4v26so2x3qshrh6qew2gq2ofiuwy11rjsoqi7wmg.jpg">
     <meta property="url" content="PLACEHOLDER">
     <title>Bountiful Foods</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/forecast.js" defer></script>
     <script src="scripts/getLastModified.js" defer></script>
+    <script src="scripts/getDrinksOrdered.js" defer></script>
 </head>
 <body>
     <header>
@@ -25,14 +28,19 @@
             <button id="menu"></button>
             <ul class="navigation">
                 <li><a class="active" href="#">Home</a></li>
-                <li><a href="orderDrink.html">Order Drink</a></li>
-                <li><a href="#">About us</a></li>
+                <li><a href="order.html">Order Drink</a></li>
+                <li><a href="about.html">About us</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="action-call">
-            <a href="#">Create your own fruit drink mix today!</a>
+            <a href="order.html">Create your own fruit drink mix today!</a>
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 800px)">
+                <img src="images/hero.webp" alt="Fruit Market" width="1000" height="667">
+            </picture>
         </section>
         <section id="weather-today">
             <h2>Carlsbad</h2>
@@ -55,7 +63,6 @@
             </section>
         </section>
         <section id="forecast">
-            <h2>3-Day Forecast</h2>
             <section>
                 <h2><span id="first-day"></span></h2>
                 <img id="first-icon" src="#" alt="">
@@ -72,24 +79,35 @@
                 <p><span id="third-temp"></span></p>
             </section>
         </section>
+        <picture>
+            <source srcset="images/drinks-small.webp" media="(max-width: 500px)">
+            <source srcset="images/drinks-medium.webp" media="(max-width: 800px)">
+            <img src="images/drinks.webp" alt="Fruit Market" width="1500" height="1000">
+        </picture>
         <h1 id="drinks">Drinks Ordered: <span id="drinks-ordered"></span></h1>
     </main>
     <footer>
-        <p>&copy;<span id='currentYear'></span> - Emilio Ordonez Guerrero</p>
-        <ul>Sources:
-            <li>https://www.fruityvice.com/</li>
-            <li>https://openweathermap.org/</li>
-        </ul>
-        <ul>Bountiful Foods
-            <li>Address: 123 Ocean View Avenue, Carlsbad, California, 92008</li>
-            <li>Phone: (760) 555-1234</li>
-            <li>Email: info@bountifulfoods.com</li>
-        </ul>
+        <div>
+            <p>Bountiful Foods</p>
+            <ul>
+                <li>Address: 123 Ocean View Avenue, Carlsbad, California, 92008</li>
+                <li>Phone: (760) 555-1234</li>
+                <li>Email: info@bountifulfoods.com</li>
+            </ul>
+        </div>
+        <div>
+            <p>Sources:</p>
+            <ul>
+                <li>https://www.fruityvice.com/</li>
+                <li>https://openweathermap.org/</li>
+            </ul>   
+        </div>
         <section id="social-media">
-            <img src="https://placehold.co/50x50" alt="Twitter">
-            <img src="https://placehold.co/50x50" alt="Facebook">
-            <img src="https://placehold.co/50x50" alt="Instagram">
+            <a href="https://twitter.com/"><img src="images/twitter.webp" alt="Twitter"></a>
+            <a href="https://www.facebook.com/"><img src="images/facebook.webp" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.webp" alt="Instagram"></a>
         </section>
+        <p>&copy;<span id='currentYear'></span> - Emilio Ordonez Guerrero</p>
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
 </body>
